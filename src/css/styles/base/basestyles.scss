@@ -1,0 +1,14 @@
+.container {
+  @media (max-width: 767px) {
+    width: 320px;
+    padding-x: 20px;
+  }
+  @media (min-width: 768px) {
+    width: 768px;
+    padding-x: 32px;
+  }
+  @media (min-width: 1280px) {
+    width: 1280px;
+    padding-x: 32px;
+  }
+}
